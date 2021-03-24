@@ -17,4 +17,11 @@ body{
     color: white;
     width: 48px;
     height: 22px;
+    font-family: 'Nunito Sans';
+}
+.div1{
+    float: left;
+}
+.div2{
+    align-self: center;
 }
