@@ -6,14 +6,16 @@
         <link href="login-design.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <header>
+        <header class="heading">
             <div class="div1">
-                <img src="logo@3x.png" alt="Rayft logo">
+                <img src="logo@3x.png" alt="Rayft logo" class="header-img">
             </div>
             <div class="div2">
-            <p>
+            <p class="header-text">
                 Login
             </p>
         </div>
@@ -22,6 +24,27 @@
             <h1>
                 Let's get started 
             </h1>
+            <div class="main-div">
+                <form>
+                    <label class="email"> Email or Username </label> <br/>
+                    <input required type="text" name="username" class="username"> <br/>
+                    <!--<hr  class="hr"/> <br/>-->
+                    <label class="password"> Password </label><br/>
+                    <input required type="password" name="password" class="pass"> <i class="fas fa-eye icon"></i></input><br/>
+                    <!--<hr class="hr1"/> <br/>-->
+                    <button type="submit" class="login"> <p class="button-text">Log In </p> </button>
+                    <p class="forgot"> Forgot Password ?</p>
+                </form>
+            </div>
+            <p class="account"> Don't have an account yet ? <a href="#" class="link">Sign Up </a></p>
         </center>
+        <div class="footer"> 
+            <p class="footer_text"> © 2018 Rayft. All rights reserved. </p>
+            <div class="icons"> 
+                <i class="fab fa-facebook-f fb"></i>
+                <i class="fab fa-twitter tt"></i>
+                <i class="fab fa-google-plus-g gp"></i>
+            </div>
+        </div>
     </body>
 </html>
