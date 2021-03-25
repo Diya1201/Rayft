@@ -18,11 +18,18 @@ body{
     margin-left: 20px;
 }
 .header-text{
-    text-align: center;
     color: white;
     width: 48px;
     height: 22px;
     font-family: 'Nunito Sans';
+    margin: 0px 0 -1px 0;
+    font-size: 16px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
 }
 .div1{
     float: left;
@@ -30,15 +37,16 @@ body{
 }
 .div2{
     align-self: center;
-    margin: 0 0 2px 470.6px;
+    margin: 0 0 2px 622px;
+    padding: 10px;
 }
 h1{
     font-family: 'Nunito Sans';
-    margin: 29px 532px 40px;
+    margin: 29px 532px 23px;
     color: #242a11
 }
 .main-div{
-    margin: 40px 435px 35px;
+    margin: 18px 435px 35px;
     width: 410px;
     height: 278px;
     padding: 32px 6px 30px;
@@ -77,6 +85,8 @@ h1{
     border-top: none;
     border-left: none;
     border-right: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
 }
 .password{
     width: 105px;
@@ -109,6 +119,8 @@ h1{
     border-top: none;
     border-left: none;
     border-right: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
 }
 .hr{
     width: 300px;
@@ -160,6 +172,7 @@ h1{
   object-fit: contain;
   opacity: 0.15;
 }
+
 .hr1{
     width: 300px;
     height: 1px;
@@ -167,7 +180,14 @@ h1{
     opacity: 0.06;
     background-color: #000000;  
 }
-.pass :focus{
+input[type=text]:focus{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-style: inset;
+    border-bottom-color: grey;
+}
+input[type=password]:focus{
     border-top: none;
     border-left: none;
     border-right: none;
@@ -178,7 +198,7 @@ h1{
     background-color: #1c2646;   
     width: 100% ;
     height: 36px;
-    margin: 18px 20px 0 -8px;
+    margin: 26px 20px 0 -8px;
     padding: 13px 82px 7px 0px;
     position: fixed;
 }
@@ -223,10 +243,10 @@ h1{
     padding: 0 0 0 2px;
 }
 .account{
-    width: 169px;
+    width: 300px;
     height: 20px;
-    margin: 0 6px 0 0;
-    opacity: 0.3;
+    margin: 0 0px 9 -38px;
+    opacity: 0.8;
     font-family: 'Nunito Sans';
     font-size: 14px;
     font-weight: normal;
@@ -239,7 +259,7 @@ h1{
 .link{
   width: 52px;
   height: 20px;
-  margin: 0 0 0 6px;
+  margin: -1 0 0 0px;
   font-family: 'Nunito Sans';
   font-size: 14px;
   font-weight: bold;
@@ -249,4 +269,19 @@ h1{
   letter-spacing: normal;
   text-align: right;
   color: #51a8d1;
+  text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+    .main-div{
+        width: 50%;
+    }
+    .login{
+        width: 50%;
+    }
+    .username{
+        width: 50%;
+    }
+    .pass{
+        width: 50%;
+    }
 }

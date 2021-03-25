@@ -166,3 +166,23 @@ body{
 .gp{
     padding: 0 0 0 2px;
 }
+@media only screen and (max-width: 600px) {
+    .button1{
+        width: auto;
+    }
+    .button2{
+        width: auto;
+    }
+    .rectangle{
+        width: auto;
+    }
+    .text{
+        width: auto;
+    }
+    .line1{
+        width: auto;
+    }
+    .line2{
+        width: auto;
+    }
+}
