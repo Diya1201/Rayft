@@ -1,0 +1,407 @@
+body{
+    background-color: white;
+}
+.heading{
+    background-color: #254e97;
+    height: 48px;
+    width: 101.2%;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: 20px;
+}
+.header-img{
+    float: left;
+    color: white;
+    height: 36px;
+    width: 90.9px;
+    padding: 8px;
+    margin-left: 20px;
+}
+.header-text{
+    color: white;
+    width: 58px;
+    height: 22px;
+    font-family: 'Nunito Sans';
+    margin: 0px 0 -1px 0;
+    font-size: 16px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+}
+.div1{
+    float: left;
+    height: 44px;
+    margin: -1px 0 5px 0;
+}
+.div2{
+    align-self: center;
+    margin: 0 0 2px 622px;
+    padding: 10px;
+}
+h1{
+    font-family: 'Nunito Sans';
+    margin: 29px 532px 23px;
+    color: #242a11
+}
+.main-div{
+    margin: 18px 435px 35px;
+    width: 410px;
+    height: 294px;
+    padding: 32px 6px 30px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+}
+.footer{
+    background-color: #1c2646;   
+    width: 100% ;
+    height: 36px;
+    margin: 20px 20px 0 -8px;
+    padding: 13px 82px 7px 0px;
+    position: fixed;
+}
+.footer_text{
+    color: white;
+    float: left;
+    font-family: 'Nunito Sans';
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    width: 300px;
+    height: 20px;
+    margin: 0 796px -15px 80px;
+    opacity: 0.7;
+}
+.icons{
+    color: white;
+    float: right;
+    width: 96px;
+    height: 18px;
+    margin: 1px 80px 1px 796px;
+    opacity: 0.7;
+    font-family: FontAwesome;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+}
+.fb{
+    padding: 0 12px 0 0;
+}
+.tt{
+    padding: 0 10px 0 8px;
+}
+.gp{
+    padding: 0 0 0 2px;
+}
+.name-label{
+  width: 57px;
+  height: 16px;
+  margin: 0 76px 8px 15px;
+  opacity: 0.3;
+  font-family: 'Nunito Sans';
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #242a41;
+}
+.lastname-label{
+  width: 57px;
+  height: 16px;
+  margin: 0 78px 8px 0;
+  opacity: 0.3;
+  font-family: 'Nunito Sans';
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #242a41;
+}
+.fname{
+  width: 76px;
+  height: 22px;
+  margin: 6px 55px 8px 42px;
+  font-family: 'Nunito Sans';
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #242a11;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: rgb(170, 169, 169);
+}
+.lname{
+  width: 76px;
+  height: 22px;
+  margin: 7px 85px 8px 2px;
+  font-family: 'Nunito Sans';
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #242a41;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: rgb(170, 169, 169);
+}
+.email-label{
+  width: 77px;
+  height: 16px;
+  margin: 0 223px 8px 0;
+  opacity: 0.3;
+  font-family: 'Nunito Sans';
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #242a41;
+}
+.email{
+    width: 300px;
+    height: 22px;
+    margin: 4px 177px 8px 77px;
+    font-family: 'Nunito Sans';
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #242a41;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgb(170, 169, 169);
+}
+.password-label{
+    width: 56px;
+    height: 16px;
+    margin: 0 220px 16px 20px;
+    opacity: 0.3;
+    font-family: 'Nunito Sans';
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #242a41;
+}
+.password{
+    width: 300px;
+    height: 22px;
+    margin: 5px 154px 16px 77px;
+    opacity: 0.8;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgb(170, 169, 169);
+}
+.purpose{
+    width: 147px;
+    height: 16px;
+    margin: 0 130px 13px 0;
+    opacity: 0.3;
+    font-family: 'Nunito Sans';
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #242a41;  
+}
+.container {
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-top: 10px;
+    padding-top: 10px;
+    font-family: 'Nunito Sans';
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 1;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 7;
+    left: 0;
+    height: 22px;
+    width: 22px;
+    background-color: #eee;
+    border-radius: 50%;
+    border-color: black;
+    border: solid 1px;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .checkmark:hover {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #20cdbb;
+    border: none;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 6px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+.checkbox{
+      margin-top: 10px;
+}
+.login{
+    width: 300px;
+    height: 45px;
+    margin: 9px 0 7px;
+    padding: 0px 125.5px 11px 126.5px;
+    border-radius: 22.5px;
+    background-color: #20cdbb;
+    border: none;
+}
+.button-text{
+  width: 48px;
+  height: 22px;
+  font-family: 'Nunito Sans';
+  font-size: 16px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+button:hover{
+    transform: scale(1.1);
+}
+a.link:hover{
+    text-decoration-line: underline;
+}
+.account{
+    width: 300px;
+    height: 20px;
+    margin: 0 0px 9 -38px;
+    opacity: 0.8;
+    font-family: 'Nunito Sans';
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #242a11;
+}
+.link{
+  width: 52px;
+  height: 20px;
+  margin: -1 0 0 0px;
+  font-family: 'Nunito Sans';
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: right;
+  color: #51a8d1;
+  text-decoration: none;
+}
+.icon{
+    width: 22px;
+    height: 12px;
+    margin: -38px 2px 0px 266px;
+    object-fit: contain;
+    opacity: 0.15;
+    color: black;
+  }
+.icon:hover{
+    color: black;
+    opacity: 1;
+}
+.icon ::after{
+    content: "\f070";
+}
+@media only screen and (max-width: 600px) {
+    .main-div{
+        width: 50%;
+    }
+    .login{
+        width: 50%;
+    }
+    .fname{
+        width: 50%;
+    }
+    .lname{
+        width: 50%;
+    }
+    .email{
+        width: 50%;
+    }
+    .password{
+        width: 50%;
+    }
+    .purpose{
+        width: 50%;
+    }
+    .checkbox{
+        width: 50%;
+    }
+}
