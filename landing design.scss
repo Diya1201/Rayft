@@ -1,0 +1,101 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #25439d;
+}
+
+.landing {
+    background-color: #25439d;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 5em;
+    &-box 
+    {
+        min-width: 10em;
+        padding: 30px 46px 38px;
+        border-radius: 4px;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+        background: linear-gradient(323deg, #112970 108%, #25439d 34%);
+    }
+    &-text {
+        font-weight: bold;
+        font-family: Nunito Sans;
+        color: #ffffff;
+    }
+    &-loginbtn {
+        margin: 0 0 28px;
+        min-width: 12em;
+        font-family: Nunito Sans;
+        border-radius: 22.5px;
+        color: #ffffff;
+        border: none;
+        background-color: #20cdbb;
+        font-size: 18px;
+        font-weight: 800;
+        &-signup {
+            background-color: #51a8d1;
+        }
+    }
+    &-footer {
+        background-color: #1c2646;
+        font-size: 1em;
+        color: #ffffff;
+        text-align: center;
+        width: 104%;
+        bottom: 0em;
+    }
+    &-or {
+        opacity: 0.3;
+        font-weight: bold;
+        text-align: center;
+        color: #ffffff;
+    }
+    &-acc {
+        opacity: 0.5;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        line-height: 1.43;
+        text-align: center;
+        color: #ffffff;
+    }
+    &-signupbtn {
+        border: none;
+        min-width: 12em;
+        font-size: 18px;
+        color: #ffffff;
+        font-family: Nunito Sans;
+        border-radius: 22.5px;
+        background-color: #51a8d1;
+        font-weight: 800;
+    }
+    &-separator {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        &::before {
+            content: '';
+            flex: 1;
+            border-bottom: solid 1px #ffffff;
+            opacity: 0.1;
+        }
+        &::after {
+            content: '';
+            flex: 1;
+            border-bottom: solid 1px #ffffff;
+            opacity: 0.1;
+        }
+        &:not(:empty) {
+            &::before {
+                margin-right: .25em;
+            }
+            &::after {
+                margin-left: .25em;
+            }
+        }
+    }
+}
