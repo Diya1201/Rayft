@@ -1,0 +1,453 @@
+body{
+    background-color: white;
+    
+}
+.footer{
+    background-color: #183380;   
+    width: 100% ;
+    height: 36px;
+    margin: 88px 20px 0 -8px;
+    padding: 13px 82px 7px 0px;
+    position: relative;
+}
+.footer_text{
+    color: white;
+    float: left;
+    font-family: 'Nunito Sans';
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    width: 300px;
+    height: 20px;
+    margin: 0 796px -15px 80px;
+    opacity: 0.7;
+}
+.icons{
+    color: white;
+    float: right;
+    width: 96px;
+    height: 18px;
+    margin: 1px 80px 1px 796px;
+    opacity: 0.7;
+    font-family: FontAwesome;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+}
+.fb{
+    padding: 0 12px 0 0;
+}
+.tt{
+    padding: 0 10px 0 8px;
+}
+.gp{
+    padding: 0 0 0 2px;
+}
+.landing-footer {
+    background-color: #1c2646;
+    font-size: 1em;
+    color: #ffffff;
+    text-align: center;
+    width: 104%;
+    bottom: 0em;
+}
+.login-header{
+    background-color: #1c2646;
+    top: 0em;
+    margin-top: 0px;
+    margin-left: -8px;
+    margin-right: 20px;
+    /*display: flexbox;*/
+    width: 104%;
+    position: fixed;
+}
+.header-img{
+    float: left;
+    color: white;
+    height: 48px;
+    width: 90.9px;
+    padding: 8px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.header-text{
+    color: white;
+    width: 48px;
+    height: 22px;
+    font-family: 'Nunito Sans';
+    margin: 22px 0 -1px 50px;
+    font-size: 16px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    float: inherit;
+    position: fixed;
+}
+h1{
+    font-family: 'Nunito Sans';
+    margin: 65px 400px 23px;
+    color: #242a41
+}
+.landing-box{
+    margin: 18px 0px 35px 0px;
+    width: 410px;
+    height: 410px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    min-width: 10em;
+    padding: 30px 46px 38px;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.name-label{
+    width: 61px;
+    height: 7px;
+    margin: 0 182px 8px 16px;
+    opacity: 0.3;
+    font-family: 'Nunito Sans';
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #242a41;
+  }
+  .lastname-label{
+    width: 62px;
+    height: 7px;
+    margin: 0 130px 8px -62px;
+    opacity: 0.3;
+    font-family: 'Nunito Sans';
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #242a41;
+  }
+  .fname{
+    width: 76px;
+    height: 20px;
+    margin: 6px 86px 8px 18px;
+    font-family: 'Nunito Sans';
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #242a11;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgb(170, 169, 169);
+  }
+  .lname{
+    width: 76px;
+    height: 20px;
+    margin: 7px 119px 8px 17px;
+    font-family: 'Nunito Sans';
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #242a41;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgb(170, 169, 169);
+  }
+  .email-label{
+    width: 77px;
+    height: 16px;
+    margin: 0 319px 8px 0;
+    opacity: 0.3;
+    font-family: 'Nunito Sans';
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #242a41;
+  }
+  .email{
+      width: 300px;
+      height: 22px;
+      margin: 0px 208px -2px 40px;
+      font-family: 'Nunito Sans';
+      font-size: 16px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #242a41;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-color: rgb(170, 169, 169);
+  }
+  .password-label{
+      width: 56px;
+      height: 4px;
+      margin: 10px 304px 16px 0px;
+      opacity: 0.3;
+      font-family: 'Nunito Sans';
+      font-size: 12px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #242a41;
+  }
+  .password{
+      width: 300px;
+      height: 22px;
+      margin: -6px 42px 16px 16px;
+      opacity: 0.8;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-color: rgb(170, 169, 169);
+  }
+  .purpose{
+      width: 147px;
+      height: 16px;
+      margin: 0 216px 13px 0;
+      opacity: 0.3;
+      font-family: 'Nunito Sans';
+      font-size: 12px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #242a41;  
+  }
+  .container1 {
+      position: relative;
+      padding-left: 35px;
+      margin-bottom: 12px;
+      cursor: pointer;
+      font-size: 14px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      margin-top: 10px;
+      padding-top: 10px;
+      font-family: 'Nunito Sans';
+      margin-right: 50px;
+    }
+    
+    /* Hide the browser's default checkbox */
+    .container1 input {
+      position: absolute;
+      opacity: 1;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+    }
+    
+    /* Create a custom checkbox */
+    .checkmark {
+      position: absolute;
+      top: 7;
+      left: 0;
+      height: 22px;
+      width: 22px;
+      background-color: #eee;
+      border-radius: 50%;
+      border-color: black;
+      border: solid 1px;
+    }
+    
+    /* On mouse-over, add a grey background color */
+    .checkmark:hover {
+      background-color: #ccc;
+    }
+    
+    /* When the checkbox is checked, add a blue background */
+    .container1 input:checked ~ .checkmark {
+      background-color: #20cdbb;
+      border: none;
+    }
+    
+    /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+      content: "";
+      position: absolute;
+      display: none;
+  }
+  /* Show the checkmark when checked */
+  .container1 input:checked ~ .checkmark:after {
+      display: block;
+  }
+  /* Style the checkmark/indicator */
+  .container1 .checkmark:after {
+      left: 6px;
+      top: 3px;
+      width: 5px;
+      height: 10px;
+      border: solid white;
+      border-width: 0 3px 3px 0;
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+  .checkbox{
+        margin-top: -8px;
+  }
+  .login{
+      width: 300px;
+      height: 45px;
+      margin: -2px 0 7px;
+      padding: 10px 125.5px 11px 126.5px;
+      border-radius: 22.5px;
+      background-color: #20cdbb;
+      border: none;
+  }
+  .landing-loginbtn {
+    margin: 0 0 28px;
+    min-width: 15em;
+    font-family: Nunito Sans;
+    border-radius: 22.5px;
+    color: #ffffff;
+    border: none;
+    background-color: #20cdbb;
+    font-size: 18px;
+    font-weight: 800;
+  }
+  .button-text{
+    width: 48px;
+    height: 22px;
+    font-family: 'Nunito Sans';
+    font-size: 16px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+  button:hover{
+      transform: scale(1.1);
+  }
+  a.link:hover{
+      text-decoration-line: underline;
+  }
+.account{
+      width: 300px;
+      height: 20px;
+      margin: 0 0px 155px 513px;
+      opacity: 1;
+      font-family: 'Nunito Sans';
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.43;
+      letter-spacing: normal;
+      color: #242a11;
+}
+.link{
+    width: 52px;
+    height: 20px;
+    margin: -1 0 0 0px;
+    font-family: 'Nunito Sans';
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: right;
+    color: #51a8d1;
+    text-decoration: none;
+}
+.icon{
+    width: 22px;
+    height: 12px;
+    /*margin: -38px 2px 0px 266px;*/
+    object-fit: contain;
+    opacity: 0.15;
+    color: black;
+    text-align: right;
+}
+.icon:hover{
+    color: black;
+    opacity: 1;
+}
+.icon ::after{
+    content: "\f070";
+}
+@media screen and (max-width: 600px) {
+    .landing-box{
+        margin-left: 405px;
+    }
+    .password{
+        margin-left: -15px;
+        margin-right: 208px;
+    }
+    .email{
+        margin-left: 10px;
+    }
+    .email-label{
+        margin-left: 10px;
+    }
+    .password{
+        margin-left: 10px;
+        height: 5px
+    }
+    .password-label{
+        margin-left: 10px;
+    }
+    h1{
+        margin-left: 251px;
+        margin-top: 30px;
+    }
+    .account{
+        margin-left: 251px;
+    }
+    .lastname-label{
+        margin-right: 28px;
+    }
+    .lname{
+        margin-right: 53px;
+    }
+    h1{
+        margin-top: 105px;
+    }
+    .icon{
+        margin: -38px 2px 0px 288px;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    h1{
+        margin-left: 215px;
+    }
+    .account{
+        margin-left: 215px;
+    }
+    .email-label{
+        margin-left: 28px;
+    }
+}
+/*# sourceMappingURL=signup.map */

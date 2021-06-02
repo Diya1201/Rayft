@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.landing {
+    background-color: #25439d;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 5em;
+    &-footer {
+        background-color: #1c2646;
+        font-size: 1em;
+        color: #ffffff;
+        text-align: center;
+        width: 104%;
+        bottom: 0em;
+    }
+    &-box {
+        min-width: 10em;
+        padding: 30px 46px 38px;
+        border-radius: 4px;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    }
+    &-header {
+        background-color: #1c2646;
+        font-size: 1em;
+        color: #ffffff;
+        text-align: center;
+        width: 104%;
+        top: 0em;
+    }    
+}
