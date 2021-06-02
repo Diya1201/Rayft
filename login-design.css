@@ -2,14 +2,21 @@ body{
     background-color: white;
     
 }
-.heading{
-    background-color: #183380;
-    height: 48px;
-    width: 100%;
-    margin-top: -8px;
+.landing {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 5em;
+    margin-top: 75px;
+  }
+.login-header{
+    background-color: #1c2646;
+    top: 0em;
+    margin-top: 0px;
     margin-left: -8px;
     margin-right: 20px;
-    display: flexbox;
+    /*display: flexbox;*/
+    width: 104%;
+    position: fixed;
 }
 .header-img{
     float: left;
@@ -25,7 +32,7 @@ body{
     width: 48px;
     height: 22px;
     font-family: 'Nunito Sans';
-    margin: 0px 0 -1px 0;
+    margin: 22px 0 -1px 50px;
     font-size: 16px;
     font-weight: 800;
     font-stretch: normal;
@@ -34,36 +41,28 @@ body{
     letter-spacing: normal;
     text-align: center;
     float: inherit;
-    position: relative;
-}
-.div1{
-    float: left;
-    height: 44px;
-    margin: -1px 0 5px 0;
-}
-.div2{
-    align-self: center;
-    margin: 0 0 2px 622px;
-    padding: 10px;
+    position: fixed;
 }
 h1{
     font-family: 'Nunito Sans';
-    margin: 29px 532px 23px;
+    margin: 29px 400px 23px;
     color: #242a11
 }
-.main-div{
+.landing-box{
     margin: 18px 0px 35px 0px;
     width: 410px;
     height: 319px;
-    padding: 32px 6px 30px;
     border-radius: 4px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
     background-color: #ffffff;
+    min-width: 10em;
+    padding: 30px 46px 38px;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 .email{
     width: 105px;
     height: 16px;
-    margin: 14px 208px 10px 11px;
+    margin: 14px 208px 10px -36px;
     opacity: 0.3;
     font-family: 'Nunito Sans';
     font-size: 12px;
@@ -75,9 +74,9 @@ h1{
     color: #242a11;
 }
 .username{
-    width: 300px;
+    width: 75%;
     height: 22px;
-    margin: 4px 177px 10px 39px;
+    margin: 4px 177px 10px 48px;
     font-family: 'Nunito Sans';
     font-size: 16px;
     font-weight: 600;
@@ -109,9 +108,9 @@ h1{
     color: #242a11;
 }
 .pass{
-    width: 300px;
+    width: 75%;
     height: 22px;
-    margin: -6px -20px 10px 32px;
+    margin: -6px -56px 10px 0px;
     font-family: 'Nunito Sans';
     font-size: 16px;
     font-weight: 600;
@@ -257,7 +256,7 @@ input.pass:focus{
 .account{
     width: 300px;
     height: 20px;
-    margin: 0 0px 9 -38px;
+    margin: 0 0px 9px 424px;
     opacity: 0.8;
     font-family: 'Nunito Sans';
     font-size: 14px;
@@ -283,23 +282,62 @@ input.pass:focus{
   color: #51a8d1;
   text-decoration: none;
 }
-@media only screen and (max-width: 600px) {
-    .main-div{
-        width: 50%;
-    }
-    .login{
-        width: 30%;
-    }
-    .username{
-        width: 50%;
-    }
-    .pass{
-        width: 50%;
-    }
-}
 button:hover{
     transform: scale(1.1);
 }
 a.link:hover{
     text-decoration-line: underline;
 }
+.landing-footer {
+    background-color: #1c2646;
+    font-size: 1em;
+    color: #ffffff;
+    text-align: center;
+    width: 104%;
+    bottom: 0em;
+}
+.div1{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+@media screen and (max-width: 600px) {
+    .landing-box{
+        margin-left: 405px;
+    }
+    .password{
+        margin-left: -15px;
+        margin-right: 208px;
+    }
+    .email{
+        margin-left: 10px;
+    }
+    .username{
+        margin-left: 10px;
+    }
+    .pass{
+        margin-left: -29px;
+    }
+    h1{
+        margin-left: 251px;
+        margin-top: 30px;
+    }
+    .account{
+        margin-left: 251px;
+    }
+    .forgot{
+        margin-left: 33.5px;
+        margin-right: 18px;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    h1{
+        margin-left: 215px;
+    }
+    .account{
+        margin-left: 215px;
+    }
+    .email{
+        margin-left: 28px;
+    }
+}
+/*# sourceMappingURL=login.map */
