@@ -9,6 +9,7 @@
         <script src="https://kit.fontawesome.com/e7ebc2fc39.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <link href="author-styles.css" rel="stylesheet">
+        <script src="author.js"></script>
     </head>
     <body>
         <div class="container-fluid authors">
@@ -50,17 +51,39 @@
                     </p>
                 </div>
             </div>
-            <div class="row text-center row-div2">
-                <p class="trending"> Trending </p>
-                <p class="Latest"> Latest</p>
-                <p class="profile"> Profile </p>
-                <hr class="line1">
-                <p class="followers2"> Followers</p>
+            <div class="row text-center row-div2 tab">
+                <button class="trending tabButton" onclick="opendetails(event, 'trending')"> Trending </botton> 
+                <button class="Latest tabButton" onclick="opendetails(event, 'latest')"> Latest</button>
+                <button class="profile tabButton" onclick="opendetails(event, 'profile')"> Profile </button>
+                <!--<hr class="line1">-->
+                <button class="followers2 tabButton" onclick="opendetails(event,'follower')"> Followers</button>
             </div>
-            <div class="row row-div3">
+            <div class="trendingpage tabcontent " id="trending"> 
+                <div class="col-3">
+                </div>
+                <div class="col-6 justify-content-center"> 
+                <p>
+                     Trending 
+                </p>
+                </div>
+                <div class="col-3">
+                </div>
+            </div>
+            <div class="latestpage tabcontent" id="latest">
+                <div class="col-3">
+                </div>
+                <div class="col-6 justify-content-center">
+                <p>
+                    Latest
+                </p>
+                </div>
+                <div class="col-3">
+                </div>
+            </div>
+            <div class="row row-div3 tabcontent" id="profile">
             <div class="col-3">
             </div>
-            <div class="col-6 justify-content-center">
+            <div class="col-6 justify-content-center tab-content">
             <p class="pdetails"> PROFILE DETAILS </p>
             <br/>
             <p class="about"> About an author </p>
@@ -84,6 +107,131 @@
             </div>
             <div class="col-3">
             </div>
+            </div>
+            <div class="followerspage tabcontent" id="follower">
+                <div class="col-3">
+                </div>
+                <div class="col-4 justify-content-center r3">
+                <p class="follower">
+                     Followers
+                </p>
+               <!-- png -->
+                <img src="shape.png"srcset="shape@2x.png, shape@3x.png" class="Shape">
+                <p class="F1"> Floyd West </p>
+                <button onclick="following()" id="button" class="button"> Follow </button>
+                <div class="row row-div r1">
+                <p class="if"> 30 followings </p>
+                <p class="d1"> . </p>
+                <p class="if1"> 5.3k followers </p>
+                </div>
+                <br/>
+                <img src="circle-cropped.png" class="Shape">
+                <p class="F2"> Harold Christensen </p>
+                <button onclick="following()" id="button" class="button1"> Follow </button>
+                <div class="row row-div r1">
+                <p class="if2"> 30 followings </p>
+                <p class="d2"> . </p>
+                <p class="if3"> 5.3k followers </p>
+                </div>
+                <br/>
+                <img src="SJ1.png" class="Shape">
+                <p class="F3"> Johnny Leonard </p>
+                <button onclick="following()" id="button" class="button2"> Follow </button>
+                <div class="row row-div r1">
+                <p class="if4"> 30 followings </p>
+                <p class="d3"> . </p>
+                <p class="if5"> 5.3k followers </p>
+                </div>
+                <br/>
+                <img src="SG.png" class="Shape">
+                <p class="F3"> Virgie Wagner </p>
+                <button onclick="following()" id="button" class="button2"> Follow </button>
+                <div class="row row-div r1">
+                <p class="if4"> 30 followings </p>
+                <p class="d3"> . </p>
+                <p class="if5"> 5.3k followers </p>
+                </div>
+                <br/>
+                <img src="JH1.png" class="Shape">
+                <p class="F3"> Barbara McLaughlin </p>
+                <button onclick="following()" id="button" class="button2"> Follow </button>
+                <div class="row row-div r1">
+                <p class="if4"> 30 followings </p>
+                <p class="d3"> . </p>
+                <p class="if5"> 5.3k followers </p>
+                </div>
+                <br/>
+                <img src="JM1.png" class="Shape">
+                <p class="F3"> Hallie Cox </p>
+                <button onclick="following()" id="button" class="button2"> Follow </button>
+                <div class="row row-div r1">
+                <p class="if4"> 30 followings </p>
+                <p class="d3"> . </p>
+                <p class="if5"> 5.3k followers </p>
+                </div>
+                <br/>
+                <img src="V1.png" class="Shape">
+                <p class="F3"> Ruth Baret </p>
+                <button onclick="following()" id="button" class="button2"> Follow </button>
+                <div class="row row-div r1">
+                <p class="if4"> 30 followings </p>
+                <p class="d3"> . </p>
+                <p class="if5"> 5.3k followers </p>
+                </div>
+                <br/>
+                <img src="JK1.png" class="Shape">
+                <p class="F3"> Keith Sullivan </p>
+                <button onclick="following()" id="button" class="button2"> Follow </button>
+                <div class="row row-div r1">
+                <p class="if4"> 30 followings </p>
+                <p class="d3"> . </p>
+                <p class="if5"> 5.3k followers </p>
+                </div>
+                <br/>
+               </div>
+                <div class="col-3 justify-content-center">
+                <p class="follower2">
+                    Following
+                </p>
+                <img src="shape1.png"  srcset="shape2x.png, shape3x.png" class="Shape">
+                <p class="F3"> Edith Willamson </p>
+                <button onclick="following()" id="button" class="button2"> Follow </button>
+                <div class="row row-div r1">
+                <p class="if4"> 30 followings </p>
+                <p class="d3"> . </p>
+                <p class="if5"> 5.3k followers </p>
+                </div>
+                <br/>
+                <img src="SG1.png" class="Shape">
+                <p class="F3"> Maud Neal </p>
+                <button onclick="following()" id="button" class="button2"> Follow </button>
+                <div class="row row-div r1">
+                <p class="if4"> 30 followings </p>
+                <p class="d3"> . </p>
+                <p class="if5"> 5.3k followers </p>
+                </div>
+                <br/> 
+                <img src="BTS logo.png" class="Shape">
+                <p class="F3"> Francis Henry  </p>
+                <button onclick="following()" id="button" class="button2"> Follow </button>
+                <div class="row row-div r1">
+                <p class="if4"> 30 followings </p>
+                <p class="d3"> . </p>
+                <p class="if5"> 5.3k followers </p>
+                </div>
+                <br/>
+                <img src="V2.png" class="Shape">
+                <p class="F3"> Elizabeth Hayes </p>
+                <button onclick="following()" id="button" class="button2"> Follow </button>
+                <div class="row row-div r1">
+                <p class="if4"> 30 followings </p>
+                <p class="d3"> . </p>
+                <p class="if5"> 5.3k followers </p>
+                </div>
+                <br/>
+                </div>
+                <div class="col-2">
+                </div>
             </div>
         </div>
         <footer class=" row mt-5  landing-footer position-fixed p-3">
